@@ -1,0 +1,48 @@
+Dados obtidos do UCI Machine Learning Repository - Iris Data Set:
+https://archive.ics.uci.edu/ml/datasets/iris
+
+
+Esse arquivo .zip contém três arquivos:
+
+1) iris-test.data
+Arquivo CSV que contém dados para testar e avaliar o treinamento da rede neural.
+Possui 10 instâncias para cada classe de planta.
+
+Os atributos encontrados em cada linha, separados por vírgula, são:
+A,B,C,D,E
+
+Sendo:
+- A: Comprimento da sépala em centímetros.
+- B: Largura da sépala em centímetros.
+- C: Comprimento da pétala em centímetros.
+- D: Largura da pétala em centímetros.
+- E: Classe da flor (Íris Setosa, Íris Versicolor, Íris Virginica).
+
+No caso do teste/validação, não precisamos usar o atributo E (classe), já que a rede neural é quem classificará a flor de
+acordo com os atributos A, B, C e D (você pode usar o atributo da classe da flor para verificar que a rede classifica as
+flores corretamente).
+
+
+2) iris-train.data
+Arquivo CSV que contém dados para treinamento da rede neural.
+Possui 40 instâncias para cada classe de planta.
+
+Os atributos encontrados em cada linha, separados por vírgula, são:
+A,B,C,D,E
+
+Sendo:
+- A: Comprimento da sépala em centímetros.
+- B: Largura da sépala em centímetros.
+- C: Comprimento da pétala em centímetros.
+- D: Largura da pétala em centímetros.
+- E: Classe da flor (Íris Setosa, Íris Versicolor, Íris Virginica).
+
+
+3) leiame.txt
+Este arquivo que você está lendo agora.
+
+
+
+Os arquivos iris-test.data e iris-train.data foram criados a partir do arquivo iris.data original (disponível no link acima),
+sendo que iris-test.data contém as últimas 10 instâncias de cada classe de planta do arquivo original e iris-train.data contém
+as primeiras 40 instâncias de cada classe de planta do arquivo original.

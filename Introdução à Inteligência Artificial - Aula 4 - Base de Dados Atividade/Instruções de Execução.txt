@@ -1,0 +1,15 @@
+Abrir a pasta na IDE de preferência
+
+Criar um ambiente virtual para execução do código
+	python -m venv .venv
+Ativar o ambiente virtual:
+	.\.venv\Scripts\activate
+
+Instalar as bibliotecas
+	pip install -r Bibliotecas_requeridas.txt
+
+Executar o código
+
+
+
+Obs: as bases iris-test.data e iris-train.data devem estar na mesma pasta do código.
